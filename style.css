@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background-color: #ffead4;
+    overflow-x: hidden;
+}
+
+.container-header {
+    width: 100vw;
+}
+
+.lett-header {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+}
