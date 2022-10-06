@@ -13,4 +13,62 @@ body {
     left: 50%;
     transform: translate(-50%);
     width: 80%;
+    margin-top: 10%;
+    fill: transparent;
+    animation: lett-preenchimento 0.5s ease-in-out forwards 3s;
+}
+
+.lett-header path {
+    stroke-width: 2px;
+    stroke: #be253f;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: lett-tracado 5s ease-in-out forwards 1s;
+}
+
+h1, h2 {
+    font-family: 'Pacifico', cursive;
+    color: #be253f;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #484848;
+    font-size: 1em;
+    text-align: center;
+}
+
+.containar-cards {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+
+@keyframes lett-preenchimento {
+    to {
+        fill: #be253f;
+    }
+}
+
+@keyframes lett-tracado {
+    to {
+        stroke-dashoffset: 0;
+    }
 }
