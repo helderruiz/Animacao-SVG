@@ -244,7 +244,7 @@
         }
     <!-- #################################################### -->
         #praia {
-            animation: inicia-pagina 1s
+            animation: inicia-pagina 2s
         }
 
         @keyframes inicia-pagina {

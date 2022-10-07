@@ -61,6 +61,24 @@ p {
     margin: 20px;
 }
 
+.lett-footer {
+    width: 60%;
+    fill: #fff;
+    opacity: 0.7;
+    position: absolute;
+    left: 20%;
+    margin-top: 20%;
+}
+
+.container-footer {
+    position: relative;
+}
+
+.footer-infos {
+    text-align: center;
+}
+
+
 @keyframes lett-preenchimento {
     to {
         fill: #be253f;
@@ -72,3 +90,4 @@ p {
         stroke-dashoffset: 0;
     }
 }
+
